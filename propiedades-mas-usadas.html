@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 62.5%;
+            background: #1c1815;
+            /*background: #8a706c;*/
+        }
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        .card {
+            width: 28rem;
+            height: 38rem;
+            background:#4a3531;
+            /*background: #0f0f0d;*/
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 45%;
+        }
+        .profile{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: -8rem;
+        }
+        .profile img:nth-child(1){
+            height: 12rem;
+            width: 12rem;
+            border-radius: 100%;
+            border: #282e2b 0.3rem solid;
+        }
+
+        .profile p{
+            margin: 0rem;
+            padding: 0 1rem;
+            font-size: large;
+        }
+        .profile p:nth-child(2){
+            font-style: italic;
+            font-weight: bolder;
+        }
+        .contact-info{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .contact-info img{
+            height: 3.0rem;
+            position: relative;
+            top: -5rem;
+        }
+        .contact-info #email{
+            margin-top: 0;
+        }
+        .follow{
+            width: 100%;
+            background: #252621;
+            position: relative;
+            top: -5.4rem;
+            height: 5.6rem;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 0.05rem 0rem;
+            color: #5aa3b7;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/6498994/pexels-photo-6498994.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+            alt="background-space">
+            <div class="profile">
+                <img src="https://lh3.googleusercontent.com/nTsFUKNq070xiklVLg6NqualOodoVuTXlRGDGziBAyrjqsSXERbvoOP5MF9hKuiiQ7SJz_ehJLTF1xaYK7ZwtFUWC5itXFH3AcdxFOoGA6VRBKB1U7xnU3ZsUYS6S1NqIpIaMz1G2_TqOUIJr73D4Rtd-S92uXUPuUxcJesos0XV-hp1vRHbDCr7LEGfxS_doUCXzBw2wUgVGid-9KIAlow0a90EGRaJjfot6M4HuG4-Qi7vmfwf48U2gOYyJkxPN9fQL-dpjW0aFaqreDg5157T9NLMsglv9f-sOqNP7xvNWUMr0xscUXcsYHhnhwaEulW96Hz_X-85bTIg_CNHssS-Ab4FPw0OZrmGu1-3gZQrlgmhzP_KD9rXRBywG85n_92cq0CtECyVBu0N40ewX_2CiXWcBCwBpiDmU626AV0FlisYjPd6GIlfegigE4j-4nC9Fgd-lPW2m0qQ9F1BHc7qr_6le6b2TCiPuBXCeWz95z5mTk2hDpWUrub121IycqcZtAyAHZmQZfaqiVku5PDPNiIjxVtizdooo79nU1FVt-8yIw4GNwvf_SFisIDGxAbZrxGn4KkGvygSLpjVIx__E4rcJoTfNFumfIHhJRJwxdvXfhKMetPd9DFa6fN3dKPvRA-acGlq7dn9QU7rAF6AjcxT5twQqIl8GLtBrx-RMNjwXsU3JjPdGsJHe4WSDvkfDx0Z5iaJhPrWcQUh2d7R=w437-h582-no?authuser=0" 
+                alt="profile-image">
+                <p>Sandra Bravo</p>
+                <p>Software Developer</p>
+            </div>
+            <div class="contact-info">
+                <div id="github">
+                    <a href="https://github.com/SandraPAM">
+                        <img src="assets/logoGithub.png" alt="github-logo">
+                    </a>
+                </div>
+                <div id="email">
+                    <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="email-icon">
+                </div>
+            </div>
+            <div class=follow>
+                <p>Follow</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
